@@ -1,0 +1,30 @@
+.TransactionHistory {
+  width: 300px;
+  height: auto;
+  margin: 20px;
+  padding: 0;
+  background-color: fff;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  border: 1px solid #eee;
+  table-layout: fixed;
+}
+
+.HeaderRow th {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+}
+.TableRow td {
+  padding: 5px 10px;
+  border: 1px solid #eee;
+  text-align: left;
+}
+.TransactionHistory tr:nth-child(odd) {
+  background: #fff;
+}
+.TransactionHistory tr:nth-child(even) {
+  background: #f7f7f7;
+}

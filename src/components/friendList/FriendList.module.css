@@ -1,0 +1,43 @@
+.FriendList {
+  list-style: none;
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.Item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin: 10px;
+}
+
+.Status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.online {
+  background-color: green;
+}
+.offline {
+  background-color: red;
+}
+
+.Avatar {
+  display: block;
+  margin-right: 20px;
+}
+.Name {
+  font-size: 18px;
+}
